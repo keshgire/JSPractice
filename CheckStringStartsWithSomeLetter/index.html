@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let str=prompt('Please enter a string');
+        let startWith= str.startsWith('s');
+        let endWith=str.endsWith('j')
+
+        if(startWith==true && endWith == true){
+            console.log(`Your string start with s and end with j`);
+        }else if(startWith==true && endWith==false){
+            console.log(`Your string start with s.`);
+        }else if(startWith==false && endWith==true){
+            console.log(`Your string end with j`);
+        }else{
+            console.log(`Your string nither start with s and nor end with j`);
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

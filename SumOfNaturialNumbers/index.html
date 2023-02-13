@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let num=prompt("Enter a Number");
+       let num1=parseInt(num)
+        function sum(num1){
+            if(num1 > 0){
+                return num1 + sum(num1-1);
+            }else{
+                return num1;
+            }
+        }
+        let ans=sum(num1);
+        console.log(ans);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
